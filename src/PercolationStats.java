@@ -3,16 +3,16 @@ public class PercolationStats {
     public PercolationStats(int n, int trials){}
 
     // sample mean of percolation threshold
-    public double mean(){}
+    public void mean(){}
 
     // sample standard deviation of percolation threshold
-    public double stddev(){}
+    public void stddev(){}
 
     // low endpoint of 95% confidence interval
-    public double confidenceLo(){}
+    public void confidenceLo(){}
 
     // high endpoint of 95% confidence interval
-    public double confidenceHi(){}
+    public void confidenceHi(){}
 
     // test client (see below)
     public static void main(String[] args){}
